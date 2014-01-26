@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TryLinGO</string>
+    <string name="action_settings">Settings</string>
+    <string name="word">咖啡</string>
+    <string name="word2">coffee</string>
+    <string name="word3">Kāfēi</string>
+    <string name="title_activity_main">Coffee</string>
+    <string name="title_activity_lang">Lang</string>
+    <string name="lan">What is your native language? \n ¿Cuál es su lengua materna? \n 什么是你的母语？</string>
+    <string name="action_save">Save</string>
+    <string name="title_activity_lib">Lib</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_hack">Hack</string>
+    <string name="hack">编程马拉松</string>
+    <string name="hack2">Biānchéng mǎlāsōng</string>
+    <string name="hack3">HACKATHON</string>
+    <string name="title_activity_pond">Pond</string>
+    <string name="pond">池塘</string>
+    <string name="pond2">Chítáng</string>
+    <string name="pond3">pond</string>
+    <string name="title_activity_tree">Tree</string>
+    <string name="tree">树</string>
+    <string name="tree2">Shù</string>
+    <string name="tree3">tree</string>
+    <string name="title_activity_car">Car</string>
+    <string name="car">汽车</string>
+    <string name="car2">Qìchē</string>
+    <string name="car3">car</string>
+    <string name="title_activity_ssign">Ssign</string>
+    <string name="ssign">停车标</string>
+    <string name="ssign2">Tíngchē biāo</string>
+    <string name="ssign3">Stop Sign</string>
+    <string name="title_activity_store">Store</string>
+    <string name="store">商店</string>
+    <string name="store2">Shāngdiàn</string>
+    <string name="store3">Shop</string>
+    <string name="books">Library</string>
+    <string name="save">Save</string>
+</resources>

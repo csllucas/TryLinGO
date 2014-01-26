@@ -1,0 +1,159 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <!-- first -->
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="clickCard"
+            android:padding="5dip" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/coff" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:text="@string/word"
+                android:textSize="40sp" />
+        </TableRow>
+
+        <View
+            android:layout_height="2dip"
+            android:background="#000000" />
+<!-- second -->
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="clickCard1"
+            android:padding="5dip" >
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/store" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:text="@string/store"
+                android:textSize="40sp" />
+        </TableRow>
+
+        <View
+            android:layout_height="2dip"
+            android:background="#000000" />
+
+        <!-- third -->
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="clickCard2"
+            android:padding="5dip" >
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/ssign" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:text="@string/ssign"
+                android:textSize="40sp" />
+        </TableRow>
+
+        <View
+            android:layout_height="2dip"
+            android:background="#000000" />
+
+        <!-- 4th -->
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="clickCard3"
+            android:padding="5dip" >
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/tree" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:text="@string/tree"
+                android:textSize="40sp" />
+        </TableRow>
+
+        <View
+            android:layout_height="2dip"
+            android:background="#000000" />
+
+        
+        <!-- 5th -->
+
+        <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="clickCard4"
+            android:padding="5dip" >
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/pond" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:text="@string/pond"
+                android:textSize="40sp" />
+        </TableRow>
+
+        <View
+            android:layout_height="2dip"
+            android:background="#000000" />
+<!-- 6th -->
+
+        <TableRow
+            android:id="@+id/tableRow6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="clickCard5"
+            android:padding="5dip" >
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/hack" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:text="@string/hack"
+                android:textSize="40sp" />
+        </TableRow>
+
+       
+        
+    </TableLayout>
+
+</ScrollView>
